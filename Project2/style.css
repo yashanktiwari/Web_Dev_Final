@@ -1,0 +1,56 @@
+body {
+  background-image: linear-gradient(to right,rgb(219, 201, 122), rgb(186, 159, 41));
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.mainDiv {
+  height: 500px;
+  width: 500px;
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 15px;
+}
+
+.item {
+  background: white;
+}
+
+.item:hover {
+  cursor: pointer;
+}
+
+.item1 {
+  background-image: url(./img/bird1.avif);
+  background-size: cover;
+}
+.item2 {
+  background-image: url(./img/lion1.avif);
+  background-size: cover;
+}
+.item3 {
+  background-image: url(./img/penguin1.avif);
+  background-size: cover;
+}
+.item4 {
+  background-image: url(./img/tiger1.avif);
+  background-size: cover;
+}
+.item5 {
+  background-image: url(./img/dog1.avif);
+  background-size: cover;
+}
+.item6 {
+  background-image: url(./img/flamingo1.avif);
+  background-size: cover;
+}
+.item7 {
+  background-image: url(./img/dog2.avif);
+  background-size: cover;
+}
+.item8 {
+  background-image: url(./img/cat1.avif);
+  background-size: cover;
+}
